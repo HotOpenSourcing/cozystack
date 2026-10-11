@@ -2,7 +2,6 @@ _out
 _repos
 .git
 .idea
-.vscode
 
 # Go binaries built straight into the repository root.
 #
@@ -152,3 +151,5 @@ packages/core/platform/images/migrations/etcd-operator-crds/
 /srv1/
 /srv2/
 /srv3/
+config.bat
+node_modules

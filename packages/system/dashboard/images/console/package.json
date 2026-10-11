@@ -4,9 +4,9 @@
   "type": "module",
   "packageManager": "pnpm@11.1.2",
   "scripts": {
-    "dev": "pnpm --filter @cozystack/console dev",
-    "build": "pnpm -r build",
-    "build:console": "pnpm --filter @cozystack/console build",
+    "dev": "node init && pnpm --filter @cozystack/console dev",
+    "build": "node init && pnpm -r build",
+    "build:console": "node init && pnpm --filter @cozystack/console build",
     "lint": "pnpm -r lint",
     "test": "pnpm -r --if-present test",
     "typecheck": "pnpm -r typecheck"
